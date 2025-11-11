@@ -17,7 +17,7 @@ ScrollTrigger.matchMedia({
       ease: "none",
       scrollTrigger: {
         trigger: "#hz_cards_section",
-        markers: true, // enable markers for debugging
+        //markers: true, // enable markers for debugging
         start: "top 20%",
         end: "bottom 10%",
         scrub: true,
@@ -35,7 +35,7 @@ ScrollTrigger.matchMedia({
       scrollTrigger: {
         trigger: "#hz_cards_section",
         //markers: true, // enable markers for debugging
-        start: "top 10%",
+        start: "top 0%",
         end: "bottom 90%",
         scrub: true,
         pin: true,
