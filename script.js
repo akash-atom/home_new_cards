@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 ///HORIZONTAL SCROLL FOR CARDS SECTION///////////
 const wrapper = document.querySelector(".hz_scroll_cards_wrapper");
 if (!wrapper) return;
@@ -42,6 +44,6 @@ ScrollTrigger.matchMedia({
         anticipatePin: 1,
       }
     });
-  }
+    }
+  });
 });
-  
